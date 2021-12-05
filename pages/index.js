@@ -7,8 +7,6 @@ import Badge from 'react-bootstrap/Badge';
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
-
-
 export default function Home() {
   return (
     <Layout>
@@ -19,30 +17,25 @@ export default function Home() {
             rel="preload"
             href="/fonts/samarkand/samarkan-Regular.ttf"
             as="font"
-            
           />
       <link
             rel="preload"
             href="/fonts/josefin/josefinSans-Regular.ttf"
             as="font"
-            
           />
       <link
             rel="preload"
             href="/fonts/Poppins/Poppins-Regular.ttf"
             as="font"
-            
           />
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
-      <title>Rohit_Chaudhary! 👩🏻‍💻 </title>
+      <title>{`Rohit_Chaudhary! 👩🏻‍💻`} </title>
       <link rel="shortcut icon" href="/rc.png" />
     </Head>
       <Navbar />
       <Hero />
       <Footer />
     </Layout>
-
   )
 }

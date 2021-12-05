@@ -7,7 +7,6 @@ import { useRouter } from "next/router";
 import Loading from "../components/Loading";
 import * as React from "react"
 import { ChakraProvider } from "@chakra-ui/react"
-
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
@@ -22,7 +21,7 @@ function MyApp({ Component, pageProps }) {
     }, [router]);
   return (
     <ChakraProvider>
-    <Loading loading={loading} /> 
+    <Loading loading={loading} />
       <Component {...pageProps} />
     </ChakraProvider>
   )
