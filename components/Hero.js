@@ -1,10 +1,8 @@
 import React from 'react'
 import { motion } from "framer-motion"
-
 import Image from 'next/image'
 import Link from 'next/link'
 import styled from 'styled-components'
-
 
 
 const hue_image = {
@@ -23,11 +21,6 @@ const hue_image = {
 				  'hue-rotate(0) contrast(100%)'
 				],
 		}
-
-
-
-
-
 
 export default function Hero() {
 	return(
@@ -49,16 +42,12 @@ export default function Hero() {
 	              </div>
 	              <div style={{marginTop: '7vh'}}>
 	                <Link href="mailto:someone@example.com"><button type="button" className="btn" style={{ marginRight: '20px', fontSize: '1rem', backgroundColor: 'orange'}}><i className="bi bi-person-rolodex" style={{marginRight: '10px', background: 'transparent'}}></i>Contact</button></Link>
-	                <Link href="/About"><button type="button" className="btn btn-outline-dark">Know Me!  -></button></Link>
+	                <Link href="/About"><button type="button" className="btn btn-outline-dark">Know Me!</button></Link>
 	              </div>
 	            </div>
 	          </div>
 	      	</section>
 	    </motion.div>
-
-
-
-
 		
 	)
 }

@@ -7,23 +7,12 @@ import About from '../pages/About'
 import Contact from '../pages/Contact'
 import Works from '../pages/Works'
 
-
-
-
-
-
-
-
-
-
-
-
 const Navbar = () => {
 	return (
-		<nav id="navbar1" className="navbar navbar-expand-md navbar-dark fixed-top">
+		<nav id="navbar1" className="navbar navbar-expand-sm navbar-dark fixed-top">
 			<div className="container">
 			    <a className="navbar-brand" href="#">
-			       <img src="/rc_blacktext.png" alt="" width="90" height="34" style={{pointerEvents: 'none'}} />
+			       <Image src="/rc_blacktext.png" alt="" width="70" height="70"/>
 				</a>
 			    <button className="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation" style={{cursor: 'pointer',width: '30px', height:'30px'}}><span className="dark-blue-text">
 				    <i className="fas fa-bars" style={{color: 'black'}}></i></span>

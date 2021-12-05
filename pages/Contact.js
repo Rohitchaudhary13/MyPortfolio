@@ -4,52 +4,13 @@ import { motion } from "framer-motion"
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-
-
-
-
 const myCard = {
 	
 	backgroundColor: 'lightGrey'
 }
 
-
 const Contact = () => {
 	return (
-		// <div>
-		// 	<h1>hello contact</h1>
-		// 	<form className={styles.main} >
-		// 	  < formGroup className={styles.inputGroup} >
-		// 	    < label htmlFor='name'>Name</label>
-		// 	    < input type='text' name='name' className={styles.inputField} />  
-		// 	  </formGroup>
-		// 	  < formGroup className={styles.inputGroup} >
-		// 	    < label htmlFor='email'>Email</label>
-		// 	    < input type='email' name='email' className={styles.inputField} />
-		// 	  </formGroup>
-		// 	  < formGroup className={styles.inputGroup} >
-		// 	    < label htmlFor='message'>Message</label>
-		// 	    < input type='text' name='message' className={styles.inputField} />
-		// 	  </formGroup>
-		// 	  < input type='submit' />
-		// 	</form >
-		// </div>
-		// {/* <h1>hello contact</h1> */}
-		// {/* <form className= "myForm"> */}
-		// {/*   < formGroup className= "myFormGrp"> */}
-		// {/*     < label htmlFor='name'>Name</label> */}
-		// {/*  formGroup className= "myFormGrp2"> */}
-		// {/*        < input type='text' name='name' className= "myInput"/>   */}
-		// {/*   </formGroup> */}
-		// {/*   < < label htmlFor='email'>Email</label> */}
-		// {/*     < input type='email' name='email' className= "myInput2"/> */}
-		// {/*   </formGroup> */}
-		// {/*   < formGroup className= "myFormGrp3"> */}
-		// {/*     < label htmlFor='message'>Message</label> */}
-		// {/*     < input type='text' name='message' className= "myInput3"/> */}
-		// {/*   </formGroup> */}
-		// {/*   < input type='submit'/> */}
-		// {/* </form> */}
 
 		<div className="main">
 		<Navbar/>
