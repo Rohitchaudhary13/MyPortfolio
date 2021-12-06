@@ -33,11 +33,11 @@ export default function Hero() {
 	                <h1 style={{fontSize: '7vw', fontFamily: 'samarkan', textAlign: 'center'}}>Rohit</h1>
 	                <h1 style={{fontSize: '7vw', fontFamily: 'poppins', textAlign: 'center'}}>Chaudhary</h1>
 	                <h3 style={{fontSize: '2vw', marginTop: '4vh'}}>Web Developer, Tech Enthusiast</h3>
-	                <h5 style={{marginTop: '4vh'}}>{`A tech freak who loves to play with technologies, Learn new things and enjoy every moment of life.`}</h5>
+	                <h5 style={{marginTop: '4vh'}}>{`A tech freak who loves to play with technologies, Learn new things and enjoy every moment of life.`} <Link href="/About">{`Read More...`}</Link></h5>
 	            </div>
 	            <div style={{marginTop: '7vh'}}>
 	                <Link href="mailto:someone@example.com"><button type="button" className="btn" style={{ marginRight: '20px', fontSize: '1rem', backgroundColor: 'orange'}}><i className="bi bi-person-rolodex" style={{marginRight: '10px', background: 'transparent'}}></i>Contact</button></Link>
-	                <Link href="/About"><button type="button" className="btn btn-outline-dark">Know Me!</button></Link>
+	                <Link href="/Works"><button type="button" className="btn btn-outline-dark">Works!</button></Link>
 	            </div>
 	            </div>
 	        </div>
